@@ -1,0 +1,12 @@
+#parent{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 8px;
+}
