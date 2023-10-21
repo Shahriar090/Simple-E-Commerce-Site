@@ -8,6 +8,7 @@
 .product-container img{
     height: 300px;
     width: 300px;
+    border-radius: 3px;
 }
 
 .product-name{
@@ -17,6 +18,7 @@
 
 .product-info{
     margin: 40px 10px;
+    
 }
 .btn-add-cart{
     padding: 8px 15px;
@@ -33,3 +35,4 @@
 .btn-add-cart:hover{
     background-color: #1ceac1e4;
 }
+

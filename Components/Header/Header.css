@@ -5,12 +5,12 @@
 .header{
     background-color: #149a7fd2;
     height: auto;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
    position: relative;
+
   
 }
 

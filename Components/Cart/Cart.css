@@ -1,0 +1,47 @@
+.order-summary{
+    background-color: #13af90e3;
+    color: white;
+    padding: 20px;
+    height: 500px;
+    position: fixed;
+    
+}
+
+.order-summary h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+
+.order-summary h4 {
+    margin-bottom: 10px; 
+}
+
+.order-cart-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 5px;
+}
+
+#btn-clear-cart{
+    padding: 6px 14px;
+    border: 2px solid white;
+    background-color: #15cfaacb;
+    color: white;
+}
+#btn-clear-cart:hover{
+    background-color: red;
+    
+}
+#btn-review-order{
+    padding: 6px 14px;
+    border: 2px solid white;
+    background-color: #15cfaacb;
+    color: white;
+}
+
+#btn-review-order:hover{
+    background-color: green;
+}
